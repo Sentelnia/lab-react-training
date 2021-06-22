@@ -1,11 +1,11 @@
-import { render } from '@testing-library/react';
+
 import React from 'react';
 import './IdCard.css';
 
 function IdCard(props){
      return <div className='idcard'> 
         <div className = 'profilPicture'>
-            <img src={props.picture}/>
+            <img src={props.picture} alt='profil'/>
         </div>
         <div className = 'profilInfo'>
             <p> <span>First name:</span>{props.firstName}</p>

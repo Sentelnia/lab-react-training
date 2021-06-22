@@ -5,6 +5,7 @@ import './App.css';
 import IdCard from './IdCard/IdCard';
 import Greetings from './Greetings/Greeting';
 import Random from './Random/Random';
+import BoxColor from './BoxColor/BoxColor';
 
 
 
@@ -32,14 +33,17 @@ function App() {
   picture="https://randomuser.me/api/portraits/women/44.jpg"
 />
 <LangageList>
-  <Greetings lang='de' children='Sisu'/>
-  <Greetings lang='en' children='Pikachu'/>
-  <Greetings lang='es' children='Dva'/>
-  <Greetings lang='fr' children='Zelda'/>
+  <Greetings lang='de'>Sisu</Greetings> 
+  <Greetings lang='en'>Pikachu</Greetings>
+  <Greetings lang='es'>Zelda</Greetings>
+  <Greetings lang='fr'>Dva</Greetings>
 </LangageList>
 
 <Random min={1} max={6}/>
 <Random min={6} max={100}/>
+
+<BoxColor r={255} g={0} b={0} />
+<BoxColor r={128} g={255} b={0} />
     </div>
   );
 }
