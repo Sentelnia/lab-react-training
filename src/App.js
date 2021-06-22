@@ -1,7 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
-import IdCard from './IdCard';
+
+import IdCard from './IdCard/IdCard';
+import Greetings from './Greetings/Greeting';
+import Random from './Random/Random';
+
+
+
+function LangageList(props){
+  return <div>{props.children}</div>
+}
 
 function App() {
   return (
@@ -22,6 +31,15 @@ function App() {
   birth={new Date("1988-05-11")}
   picture="https://randomuser.me/api/portraits/women/44.jpg"
 />
+<LangageList>
+  <Greetings lang='de' children='Sisu'/>
+  <Greetings lang='en' children='Pikachu'/>
+  <Greetings lang='es' children='Dva'/>
+  <Greetings lang='fr' children='Zelda'/>
+</LangageList>
+
+<Random min={1} max={6}/>
+<Random min={6} max={100}/>
     </div>
   );
 }
