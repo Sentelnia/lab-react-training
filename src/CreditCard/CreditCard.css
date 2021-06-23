@@ -1,0 +1,43 @@
+.card{
+    width : 220px;
+    height : 90px ;
+    border-radius: 12px;
+    margin : 10px;
+    padding : 15px;
+    display : flex;
+    flex-direction: column;
+}
+
+.logoCard{
+    object-fit: contain;
+    width :40px;
+    padding-left: 180px;
+}
+
+.secret{
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+
+.cardNum{
+    font-size: 20px;
+    margin: 4px 0 0
+}
+
+.info, .owner {
+    text-align: start;
+    margin: 0;
+}
+
+.info{
+    padding-top: 10px
+}
+
+.expireNum, .bank, .owner {
+    font-weight:inherit;
+    font-size: 10px;
+}
+
+.expireNum {
+    padding-right:15px
+}
