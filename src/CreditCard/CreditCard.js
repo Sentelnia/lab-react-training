@@ -35,15 +35,7 @@ function CreditCard(props){
     </p>
     <p className='owner'>{props.owner}</p>
     
-    </div>
-    
-
-
-
-    
-        
-        
-   
+    </div>  
 }
 
 export default CreditCard
