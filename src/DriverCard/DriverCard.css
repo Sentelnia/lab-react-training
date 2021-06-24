@@ -1,0 +1,36 @@
+.driverCard{
+    background-color: blue;
+    border-radius: 12px;
+    display: flex;
+    width:70vw;
+    margin:10px;
+    padding:20px;
+    color: white;
+    align-items: center;
+}
+
+.profilPic{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left:30%
+}
+
+.rateDriver{
+    font-size: 30px;
+}
+
+.textDriver{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.textDriver>p, h2{
+    margin:0
+} 
